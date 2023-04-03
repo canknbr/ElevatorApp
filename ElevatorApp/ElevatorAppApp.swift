@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ElevatorAppApp: App {
+    @StateObject private var appData = DataModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(appData:appData)
         }
     }
 }

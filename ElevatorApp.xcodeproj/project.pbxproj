@@ -11,6 +11,11 @@
 		36D0768529DB190C00418F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0768429DB190C00418F9A /* ContentView.swift */; };
 		36D0768729DB190E00418F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D0768629DB190E00418F9A /* Assets.xcassets */; };
 		36D0768A29DB190E00418F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D0768929DB190E00418F9A /* Preview Assets.xcassets */; };
+		36D0769229DB19EE00418F9A /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 36D0769029DB19EE00418F9A /* elevatorChime.m4a */; };
+		36D0769329DB19EE00418F9A /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 36D0769129DB19EE00418F9A /* doorsOpenClose.m4a */; };
+		36D0769529DB1A0F00418F9A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0769429DB1A0F00418F9A /* PlaySound.swift */; };
+		36D0769729DB1CDD00418F9A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0769629DB1CDD00418F9A /* DataModel.swift */; };
+		36D0769929DB1D1300418F9A /* ElevatorAndPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0769829DB1D1300418F9A /* ElevatorAndPeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		36D0768429DB190C00418F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36D0768629DB190E00418F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D0768929DB190E00418F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36D0769029DB19EE00418F9A /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevatorChime.m4a; sourceTree = "<group>"; };
+		36D0769129DB19EE00418F9A /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doorsOpenClose.m4a; sourceTree = "<group>"; };
+		36D0769429DB1A0F00418F9A /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		36D0769629DB1CDD00418F9A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		36D0769829DB1D1300418F9A /* ElevatorAndPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorAndPeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				36D0768229DB190C00418F9A /* ElevatorAppApp.swift */,
+				36D0769629DB1CDD00418F9A /* DataModel.swift */,
+				36D0769829DB1D1300418F9A /* ElevatorAndPeopleView.swift */,
+				36D0769129DB19EE00418F9A /* doorsOpenClose.m4a */,
+				36D0769029DB19EE00418F9A /* elevatorChime.m4a */,
 				36D0768429DB190C00418F9A /* ContentView.swift */,
+				36D0769429DB1A0F00418F9A /* PlaySound.swift */,
 				36D0768629DB190E00418F9A /* Assets.xcassets */,
 				36D0768829DB190E00418F9A /* Preview Content */,
 			);
@@ -126,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D0768A29DB190E00418F9A /* Preview Assets.xcassets in Resources */,
+				36D0769329DB19EE00418F9A /* doorsOpenClose.m4a in Resources */,
+				36D0769229DB19EE00418F9A /* elevatorChime.m4a in Resources */,
 				36D0768729DB190E00418F9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D0769929DB1D1300418F9A /* ElevatorAndPeopleView.swift in Sources */,
 				36D0768529DB190C00418F9A /* ContentView.swift in Sources */,
+				36D0769729DB1CDD00418F9A /* DataModel.swift in Sources */,
+				36D0769529DB1A0F00418F9A /* PlaySound.swift in Sources */,
 				36D0768329DB190C00418F9A /* ElevatorAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
