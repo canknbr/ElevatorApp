@@ -21,8 +21,8 @@ struct ContentView: View {
                 }) {
                     ///if the doors are opened, make the button white, otherwise make it black
                     Circle().frame(width: 10, height: 10)
-                        .foregroundColor(appData.doorsOpened ? .white : .black)
-                        .overlay(Circle().stroke(Color.red, lineWidth: 1))
+                        .foregroundColor(appData.doorsOpened ? .gray : .black)
+                        .overlay(Circle().stroke(Color.white, lineWidth: 1))
                         .padding(5)
                         .background(Color.black)
                         .cornerRadius(30)
@@ -31,13 +31,13 @@ struct ContentView: View {
                 //MARK: - FLOOR LIGHTS
                 HStack {
                     Image(systemName: "1.circle")
-                        .foregroundColor(appData.floor1 ? .red : .black)
+                        .foregroundColor(appData.floor1 ? .green.opacity(0.5) : .black)
                         .opacity(appData.floor1 ? 1 : 0.3)
                     Image(systemName: "2.circle")
-                        .foregroundColor(appData.floor2 ? .red : .black)
+                        .foregroundColor(appData.floor2 ? .green.opacity(0.5) : .black)
                         .opacity(appData.floor2 ? 1 : 0.3)
                 }.position(x: (geo.size.width / 2), y: (geo.size.height * 0.02) + 2)
-                    .font(.system(size: 25))
+                    .font(.system(size: 26))
             }
         }
     }
